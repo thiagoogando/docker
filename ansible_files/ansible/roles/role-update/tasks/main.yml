@@ -1,0 +1,4 @@
+---
+- name: Update SO
+  apt: name=* state=latest update_cache=yes
+  notify: reboot
